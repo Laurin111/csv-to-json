@@ -26,7 +26,7 @@ namespace csv_to_json
         public string CsvDelimiter { get; set; }
 
         // Konstruktor wird von AWS Lambda benötigt!
-        // Konstruktor erstellt S3Client instanz und eine Config instanz.
+        // Konstruktor erstellt S3Client instanz und holt von der Umgebung den Output-Bucket-Name und das Trennzeichen.
         public Function()
         {
             S3Client = new AmazonS3Client();
