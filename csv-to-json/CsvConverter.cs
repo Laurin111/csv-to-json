@@ -14,7 +14,7 @@ using CsvHelper;
 using System.Globalization;
 using System.Text.Json;
 
-namespace csv_to_json
+namespace CsvToJsonConverter
 {
     public class CsvConverter
     {
