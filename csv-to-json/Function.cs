@@ -17,7 +17,7 @@ using Amazon.Lambda.Serialization.SystemTextJson;
 
 [assembly: LambdaSerializer(typeof(DefaultLambdaJsonSerializer))]
 
-namespace csv_to_json
+namespace CsvToJsonConverter
 {
     public class Function
     {
