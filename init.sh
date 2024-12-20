@@ -3,6 +3,12 @@
 # Datum: 13.12.2024
 # Konfigurations-Skript für CSV-zu-JSON-Service mit IAM-Rollen
 # Sicherstellen, dass AWS CLI und dotnet CLI installiert sind
+# Quelle:
+# AWS CLI Dokumentation
+# Dotnet CLI Dokumentation
+# AWS Lambda Dokumentation
+# CsvHelper Dokumentation
+
 if ! command -v aws &> /dev/null; then
     echo "AWS CLI ist nicht installiert. Bitte installieren und konfigurieren Sie es."
     exit 1
